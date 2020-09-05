@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.topnav {
+  position: relative;
+  background-color: #1C96DB;
+  grid-area: 1 / 1 / 1 / 1;
+  display: grid;
+  margin: 0;
+  grid-template-columns: 10% auto auto auto auto auto 10%;
+}
+
+.navbar {
+  display: inline-grid; 
+  height: 100%;
+  width: 100%; 
+  align-items: center;
+  justify-items: center;
+  font-family: Poppins;
+  text-decoration: none;
+  font-size: calc(10px + 1vmin);
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.Main {
+  font-size: calc(10px + 1vmin);
+  font-family: Poppins;
+  grid-area: 2 / 1 / 2 / 1;
+  display: grid;
+  text-align: left;
+  justify-content: center;
+  grid-row: 2;
+  grid-column: 1;
+  margin: 0;
+}
+
+.Content {
+  grid-row: 4;
+  grid-column: 2;
+  text-align: "justify";
+  display: grid;
+  grid-template-rows: 0.01fr 0.02% 1fr;
+  grid-template-columns: 10% auto 10%;
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0;
+}
+
+.MobileNavItem {
+  display: inline-grid;
+  size: 16px;
+  align-self: center;
+  justify-content: center;
+  text-decoration: 'none';
+  color: #ffffff;
+}
+
+.Footer {
+  grid-row: 3;
+  border-style: solid hidden hidden hidden;
+  border-top-color: #1C96DB;
+}

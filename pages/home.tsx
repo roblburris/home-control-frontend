@@ -3,7 +3,7 @@ import Template from './template';
 
 function Home(): JSX.Element {
     return (
-          <Template>
+        <Template>
             <p style={{gridColumn: 2, gridRow: 1}}> Welcome to my website! I'm Robert Burris, a current sophomore at the University of Washington studying Computer Science. Here you'll find a collection of my various projects, blog posts, a copy of my resume, and info on where to contact me! <br/> <br/> In the meantime, here's some info about me!</p>
             <p style={{gridColumn: 2, gridRow: 2}}> </p>
             <ul style={{gridColumn: 2, gridRow: 3}}>
