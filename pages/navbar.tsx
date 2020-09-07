@@ -14,21 +14,21 @@ function Navbar() {
   }
 
   const topNavMobileStyle: React.CSSProperties = {
-    position: 'relative',
+    position: 'absolute',
+    height: '7%',
+    width: '100%',
     gridRow: 1,
     backgroundColor: '#1C96DB',
     gridArea: '1 / 1 / 1 / 1',
     display: 'grid',
     gridTemplateColumns: '1% auto auto auto 1%',
-    margin: 0,
-    padding: 0,
   }
 
   const mobileNavBar: JSX.Element = (<div style={topNavMobileStyle}> 
     <a className={styles.MobileNavItem} style={{gridColumn: 2}} href="">
       <Menu className="MobileNavItem"> </Menu> 
     </a>
-    <a className={styles.MobileNavItem} style={{gridColumn: 3}} href="">
+    <a className={styles.MobileNavItem} style={{gridColumn: 3}} href="/">
       <Home className="MobileNavItem"> </Home> 
     </a>
     <a className={styles.MobileNavItem} style={{gridColumn: 4}} href="https://github.com/roblburris">
