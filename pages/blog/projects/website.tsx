@@ -93,7 +93,20 @@ function Blog(): JSX.Element {
                         <li>
                             Increase space between main content and footer
                         </li>
-                    </ul> 
+                    </ul>
+
+                    <ul>
+                        <li>
+                            Add animations to mobile navbar
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            Use HTTPS instead of HTTP
+                        </li>
+                    </ul>
+                     
                 </p>
             </div>
         </Template>

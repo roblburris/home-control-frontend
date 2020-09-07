@@ -43,7 +43,7 @@ function Projects(): JSX.Element {
                 <p> 
                     In August, I had the chance to attend my first hackathon (<a
                     href='https://hack20.dubhacks.co/' style={{textDecoration:
-                    'underline', color: '#1C96DB'}}>Hack'20</a>) where two of my
+                    'underline', color: 'black'}}>Hack'20</a>) where two of my
                     friends and I built TenBot. Motivated by the 'Quarantine'
                     track, we aimed to create a medical scheduling chatbot for
                     Telegram where users could easily schedule doctor's

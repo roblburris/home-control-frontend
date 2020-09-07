@@ -12,7 +12,7 @@ function Home(): JSX.Element {
                     
                     <li> <b>Current Coursework:</b> Data Structures and Parallelism (CSE332), Hardware/Software Interface (CSE351), System and Software Tools (CSE391), Second Year Accelerated Honors Calculus (MATH334), Bioscientific Vocabularly Building from Latin and Greek Roots (CLAS205)</li>
                     
-                    <li><b> Ongoing Projects: </b> Designing a way to view bike rides logged on <a href="https://www.strava.com/athletes/22252948" style={{color: "#1C96DB"}}>Strava</a> on my website, redesigning my website using React, and developing a medical appointment scheduling Telegram/Facebook Messenger bot.</li>    
+                    <li><b> Ongoing Projects: </b> Designing a way to view bike rides logged on <a href="https://www.strava.com/athletes/22252948" style={{color: "black"}}>Strava</a> on my website, redesigning my website using React, and developing a medical appointment scheduling Telegram/Facebook Messenger bot.</li>    
                 </ul>
             </div>
         </Template>

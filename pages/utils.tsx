@@ -23,7 +23,7 @@ export function WindowDimension(): number {
 import Archive from 'react-feather';
 import styles from '../styles.module.css';
 
-const BlogTag: React.ReactElement = (
+const BlogTag: JSX.Element = (
   <div className={styles.BlogItem}>
     <a className={styles.BlogItem} href='/' style={{textDecoration: 'none'}}>
         <Archive size={16} style={{gridColumn: 1, gridRow: 1}} />
