@@ -110,7 +110,24 @@ function Blog(): JSX.Element {
                     <br />
                     <br />
 
-                    I'm not too sure on the validity of this but apparently my quarter is the last quarter that the Applied Math department will be using MATLAB in AMATH 301 and instead will be teaching in Python in the future. I think this makes a lot of sense since Python is extremely friendly to beginners and becoming more and more used in scientific computing. I will say that I am glad though that I took it before the switch since I did not have very much experience with MATLAB before this and already had lots of experience with Python. I also think this is a great class for anyone in STEM or interested in applied math. If already know more advanced math and how to program, I think that a lot of the material could be self-studied (especially since most lectures are uploaded on <a style={{color: 'black'}} href='https://www.youtube.com/channel/UCEirPnFv_2QbvzrM67SnKPA/videos'>YouTube</a>) but if you want to take higher level Applied Math classes like me, you're going to have to take this class regardless of prior knowledge.
+                    I'm not too sure on the validity of this but apparently my
+                    quarter is the last quarter that the Applied Math department
+                    will be using MATLAB in AMATH 301 and instead will be teaching
+                    in Python in the future. I think this makes a lot of sense
+                    since Python is extremely friendly to beginners and becoming
+                    more and more used in scientific computing. I will say that I
+                    am glad though that I took it before the switch since I did
+                    not have very much experience with MATLAB before this and
+                    already had lots of experience with Python. I also think this
+                    is a great class for anyone in STEM or interested in applied
+                    math. If already know more advanced math and how to program, I
+                    think that a lot of the material could be self-studied
+                    (especially since most lectures are uploaded on <a
+                    style={{color: 'black'}}
+                    href='https://www.youtube.com/channel/UCEirPnFv_2QbvzrM67SnKPA/videos'>YouTube</a>)
+                    but if you want to take higher level Applied Math classes like
+                    me, you're going to have to take this class regardless of
+                    prior knowledge.
                 </p>
             </div>
         </Template>
