@@ -62,7 +62,9 @@ function Navbar() {
   const openMobileNav: JSX.Element = (
     <div> 
       <div style={topNavMobileStyle}>
-        <X className={styles.MobileNavItem}  style={{gridColumn: 2, justifySelf: 'center', border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '2px'}} onClick={() => setClick(false)} />
+        <X className={styles.MobileNavItem} style={{gridColumn: 2, justifySelf:
+        'center', border: 'solid', borderBottom: 'solid', borderColor: 'white',
+        borderWidth: '2px'}} onClick={() => setClick(false)} />
         
         <div className={styles.MobileNavItem} style={{gridColumn: 3}}>
           <Home style={{color: '#1C96DB'}} className="MobileNavItem" />
@@ -73,27 +75,39 @@ function Navbar() {
         </div>
       </div>
 
-      <div style={{position: 'absolute', top: '9%', height: '91%', backgroundColor: 'black', width: '100%', zIndex: 1}}>
-        <div style={{position: 'absolute', height: '100%', backgroundColor: '#1C96DB', width: '100%', zIndex: -1, display: 'grid', gridTemplateRows: 'auto auto auto auto auto 9%', color: 'white', fontFamily: 'Poppins', alignItems: 'center', gridTemplateColumns: '1% auto auto auto 1%'}}>
-          <div style={{gridRow: 1, gridColumn: 3, border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '1px'}}>
+      <div style={{position: 'absolute', top: '9%', height: '91%',
+      backgroundColor: 'black', width: '100%', zIndex: 1}}>
+        <div style={{position: 'absolute', height: '100%', backgroundColor:
+        '#1C96DB', width: '100%', zIndex: -1, display: 'grid', gridTemplateRows:
+        'auto auto auto auto auto 9%', color: 'white', fontFamily: 'Poppins',
+        alignItems: 'center', gridTemplateColumns: '1% auto auto auto 1%'}}>
+          <div style={{gridRow: 1, gridColumn: 3, border: 'solid', borderBottom:
+          'solid', borderColor: 'white', borderWidth: '1px'}}>
             <a style={{textDecoration: 'none', color: 'white'}} href='/'>Home</a>
           </div>
 
-          <div style={{gridRow: 2, gridColumn: 3, border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '1px'}}>
-            <a style={{textDecoration: 'none', color: 'white'}} href='/resume.pdf'>Resume</a>
+          <div style={{gridRow: 2, gridColumn: 3, border: 'solid', borderBottom:
+          'solid', borderColor: 'white', borderWidth: '1px'}}>
+            <a style={{textDecoration: 'none', color: 'white'}}
+            href='/resume.pdf'>Resume</a>
           </div>
 
-          <div style={{gridRow: 3, gridColumn: 3, border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '1px'}}>
-            <a style={{textDecoration: 'none', color: 'white'}} href='/projects'>Projects</a>
+          <div style={{gridRow: 3, gridColumn: 3, border: 'solid', borderBottom:
+          'solid', borderColor: 'white', borderWidth: '1px'}}>
+            <a style={{textDecoration: 'none', color: 'white'}}
+            href='/projects'>Projects</a>
           </div>          
 
-          <div style={{gridRow: 4, gridColumn: 3, border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '1px'}}>
+          <div style={{gridRow: 4, gridColumn: 3, border: 'solid', borderBottom:
+          'solid', borderColor: 'white', borderWidth: '1px'}}>
             <a style={{textDecoration: 'none', color: 'white'}} href='/blog'>Blog</a>
           </div>
 
 
-          <div style={{gridRow: 5, gridColumn: 3, border: 'solid', borderBottom: 'solid', borderColor: 'white', borderWidth: '1px'}}>
-            <a style={{textDecoration: 'none', color: 'white'}} href='/contact'>Contact</a>
+          <div style={{gridRow: 5, gridColumn: 3, border: 'solid', borderBottom:
+          'solid', borderColor: 'white', borderWidth: '1px'}}>
+            <a style={{textDecoration: 'none', color: 'white'}}
+            href='/contact'>Contact</a>
           </div>    
         </div>
       </div>
