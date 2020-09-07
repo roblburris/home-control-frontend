@@ -11,7 +11,7 @@ function Blog(): JSX.Element {
                     future:
                 </p>
 
-                <h4> Strava Viewer </h4>
+                <h3> Strava Viewer </h3>
                 <p>
                     Like many other cyclists, I use Strava to keep track of bike
                     rides. The Strava Apple Watch App serves as a decently
@@ -27,7 +27,7 @@ function Blog(): JSX.Element {
                     develop those skills with this project.
                 </p>
 
-                <h4> CI/CD Content Management System </h4>
+                <h3> CI/CD Content Management System </h3>
                 <p>
                     Unlike with my previous website, I decided to add a Blog to my
                     website. Normally, it makes the most sense to use something
