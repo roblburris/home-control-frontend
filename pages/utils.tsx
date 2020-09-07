@@ -18,3 +18,16 @@ export function WindowDimension(): number {
   
     return windowDimension!;
 }
+
+/* For later, div that stores code for a tag for labeling blog posts
+import Archive from 'react-feather';
+import styles from '../styles.module.css';
+
+const BlogTag: React.ReactElement = (
+  <div className={styles.BlogItem}>
+    <a className={styles.BlogItem} href='/' style={{textDecoration: 'none'}}>
+        <Archive size={16} style={{gridColumn: 1, gridRow: 1}} />
+        <p style={{gridColumn: 2, gridRow: 1}}> Projects </p>
+    </a>
+  </div>)
+*/

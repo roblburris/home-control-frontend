@@ -11,7 +11,7 @@ function Template(Props: any) {
       textAlign: 'center',
       display: 'grid',
       gridTemplateColumns: 'auto',
-      gridTemplateRows: '5% auto',
+      gridTemplateRows: '9% auto',
     };
 
     
@@ -27,13 +27,13 @@ function Template(Props: any) {
     
     function Main(Props: any): JSX.Element {
         const mobileBody: React.CSSProperties = {
-            gridTemplateColumns: '10% auto 10%',
-            gridTemplateRows: '5% 1fr',
+          gridTemplateColumns: '10% auto 10%',
+          gridTemplateRows: '5% 1fr',
         }
     
         const normBody: React.CSSProperties = {
-            gridTemplateColumns: '10% auto 10%',
-            gridTemplateRows: '5% auto auto',
+          gridTemplateColumns: '10% auto 10%',
+          gridTemplateRows: '5% auto auto',
         }
     
         let winDim: number = Utils.WindowDimension();

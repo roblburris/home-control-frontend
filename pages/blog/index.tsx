@@ -14,35 +14,24 @@ function Blog(): JSX.Element {
 
                 <hr style={{borderWidth: 0, height: '1px', color: 'gray', backgroundColor: '#e4e8eb'}} />
                 
-                <h2>Planned Projects / Stuff I'm Working On</h2>
+                <h2 style={{textDecoration: 'underline'}}> <a href='/blog/planned-projects' style={{color: 'black'}}>Planned Projects</a></h2>
+
                 <p>
-                   Here are a list of projects I am currently working on or have planned for the future...
+                   Here are a list of projects I am currently have planned for the future...
                 </p>
 
                 <hr style={{borderWidth: 0, height: '1px', color: 'gray', backgroundColor: '#e4e8eb'}} />
-                <div className={styles.BlogItem}>
-                    <a className={styles.BlogItem} href='/' style={{textDecoration: 'none'}}>
-                        <Archive size={16} style={{gridColumn: 1, gridRow: 1}} />
-                        <p style={{gridColumn: 2, gridRow: 1}}> Projects </p>
-                    </a>
-                </div>
 
                 <h2>Project: Revamping my Website</h2>
                 <p>
-                   This is my first post where I talk about the specifics behind the development process of a project I've completed. For this post, I'll be talking about how I redid my website in React and TypeScript. Compared to a frontend built in HTML/CSS with vanilla JavaScript, I really enjoyed working with React and definitely plan to incoporate in future projects... 
+                   This is my first post where I talk about the specifics behind the development process of a project I've completed. For this post, I'll be talking about how I redid my website in React and TypeScript. Compared to a frontend built in HTML/CSS with vanilla JavaScript, I really enjoyed working with React and definitely plan to incoporate it in future projects... 
                 </p>
 
                 <hr style={{borderWidth: 0, height: '1px', color: 'gray', backgroundColor: '#e4e8eb'}} />
-                <div className={styles.BlogItem}>
-                    <a className={styles.BlogItem} href='/' style={{textDecoration: 'none'}}>
-                        <Archive size={16} style={{gridColumn: 1, gridRow: 1}} />
-                        <p style={{gridColumn: 2, gridRow: 1}}> Projects </p>
-                    </a>
-                </div>
 
                 <h2>AMATH 301</h2>
                 <p>
-                    This is a course review of AMATH 301 — Beginning Scientific Computing. I took this class in Summer 2020 with Alanna Gary and was my first class in the Applied Mathematics department here at UW. Overall, I found this to a pretty average class that I've taken at UW (nothing bad, nothing notable)...
+                    This is a course review of AMATH 301 — Beginning Scientific Computing. I took this class in Summer 2020 with Alanna Gary and was my first class in the Applied Mathematics department here at UW. Overall, I found this to a pretty average class that I've taken at UW (nothing bad, nothing notable) that helped introduce me to the field of Applied Mathematics...
                 </p>
 
 
