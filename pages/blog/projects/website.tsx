@@ -1,5 +1,5 @@
 import React from 'react';
-import Template from '../template';
+import Template from '../../template';
 
 function Blog(): JSX.Element {
     return (
@@ -71,7 +71,29 @@ function Blog(): JSX.Element {
                     
                     I wanted to get my website updated before the start of
                     September so unfortunately I was not able to add all the
-                    features I would have liked.
+                    features I would have liked. However, I do plan to continue
+                    working on my website in the future. Here are some of the
+                    things I would like to add in the next few months:
+                    <ul>
+                        <li>
+                            <a href='/blog/planned-projects' style={{color:
+                            'black'}}>
+                                CI/CD Content Management System
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            Tagging system for blog posts
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            Increase space between main content and footer
+                        </li>
+                    </ul> 
                 </p>
             </div>
         </Template>

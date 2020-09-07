@@ -1,5 +1,5 @@
 import React from 'react';
-import Template from '../template';
+import Template from '../../template';
 
 function Blog(): JSX.Element {
     return (
