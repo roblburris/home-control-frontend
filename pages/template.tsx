@@ -51,8 +51,10 @@ function Template(Props: any) {
               `} </style>
               <div className={styles.Content} style={contentStyle}> 
                   {Props.children}
-                  <div className={styles.Footer} style={{textAlign: "center", alignItems: 'center', fontSize: "calc(7px + 1vmin)"}}>
-                    Made by Robert Burris. Programmed in React using TypeScript. Last updated September 2020.
+                  <div className={styles.Footer} style={{textAlign: "center",
+                  alignItems: 'center', fontSize: "calc(7px + 1vmin)"}}>
+                    Made by Robert Burris. Programmed in React using TypeScript.
+                    Last updated September 2020.
                   </div> 
               </div>
             </div>

@@ -28,22 +28,33 @@ function Navbar() {
     <a className={styles.MobileNavItem} style={{gridColumn: 2}} href="">
       <Menu className="MobileNavItem"> </Menu> 
     </a>
+    
     <a className={styles.MobileNavItem} style={{gridColumn: 3}} href="/">
       <Home className="MobileNavItem"> </Home> 
     </a>
-    <a className={styles.MobileNavItem} style={{gridColumn: 4}} href="https://github.com/roblburris">
+   
+    <a className={styles.MobileNavItem} style={{gridColumn: 4}}
+    href="https://github.com/roblburris">
       <GitHub className="MobileNavItem"> </GitHub> 
     </a>
   </div>)
   
   const navBar: JSX.Element = (<div className={styles.topnav}>
     <Link href="/"> 
-      <a className={styles.navbar} onMouseEnter={changeBackground} onMouseLeave={revertBackground} style={{gridColumn: 2}}> Home</a>
+      <a className={styles.navbar} onMouseEnter={changeBackground}
+      onMouseLeave={revertBackground} style={{gridColumn: 2}}> Home</a>
     </Link>
-    <a className={styles.navbar} href="/resume.pdf" onMouseEnter={changeBackground} onMouseLeave={revertBackground}> Resume </a> 
-    <a className={styles.navbar} href="/projects" onMouseEnter={changeBackground} onMouseLeave={revertBackground}> Projects </a> 
-    <a className={styles.navbar} href="/blog" onMouseEnter={changeBackground} onMouseLeave={revertBackground}> Blog </a> 
-    <a className={styles.navbar} href="/contact" onMouseEnter={changeBackground} onMouseLeave={revertBackground}> Contact </a> 
+    <a className={styles.navbar} href="/resume.pdf"
+    onMouseEnter={changeBackground} onMouseLeave={revertBackground}> Resume </a>
+    
+    <a className={styles.navbar} href="/projects" onMouseEnter={changeBackground}
+    onMouseLeave={revertBackground}> Projects </a>
+    
+    <a className={styles.navbar} href="/blog" onMouseEnter={changeBackground}
+    onMouseLeave={revertBackground}> Blog </a>
+    
+    <a className={styles.navbar} href="/contact" onMouseEnter={changeBackground}
+    onMouseLeave={revertBackground}> Contact </a>
   </div>);
 
   var dispNavBar = Utils.WindowDimension() <= 640 ? mobileNavBar : navBar;
