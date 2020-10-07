@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .topnav {
   position: absolute;
-  background-color: #1C96DB;
+  background-color: #1c96db;
   grid-area: 1 / 1 / 1 / 1;
   top: 0;
   width: 100%;
@@ -13,9 +13,9 @@
 }
 
 .navbar {
-  display: inline-grid; 
+  display: inline-grid;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   align-items: center;
   justify-items: center;
   font-family: Poppins;
@@ -50,23 +50,23 @@
   size: 16px;
   align-self: center;
   justify-content: center;
-  text-decoration: 'none';
+  text-decoration: "none";
   color: #ffffff;
 }
 
 .Footer {
   grid-row: 3;
   border-style: solid hidden hidden hidden;
-  border-top-color: #1C96DB;
+  border-top-color: #1c96db;
 }
 
 .BlogItem {
-  color: #7C7C7C;
+  color: #7c7c7c;
   display: grid;
   grid-template-columns: 16px auto;
   grid-gap: 3px;
   grid-template-rows: 16px;
   align-items: center;
-  color: '#A9A9A9';
+  color: "#A9A9A9";
   font-size: calc(3px + 1vmin);
 }

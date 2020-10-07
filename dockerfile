@@ -7,5 +7,7 @@ COPY . .
 EXPOSE 3000
 
 RUN npm install --save-dev typescript @types/react @types/node
+RUN npm run build
 
-CMD [ "npm", "run", "dev" ]
+
+CMD [ "npm", "run", "start"]
