@@ -3,7 +3,11 @@ import Navbar from "../pages/navbar";
 import * as Utils from "./utils";
 import styles from "../pages/styles.module.css";
 
-function Template(Props: any) {
+interface Props {
+  children: JSX.Element
+}
+
+function Template(Props: Props): JSX.Element {
   const appMobileStyle: React.CSSProperties = {
     textAlign: "center",
     display: "grid",
@@ -55,8 +59,8 @@ function Template(Props: any) {
               fontSize: "calc(7px + 1vmin)",
             }}
           >
-            Made by Robert Burris. Programmed in React using TypeScript. Last
-            updated September 2020.
+            Made by Robert Burris. Built in React using TypeScript. Last
+            updated December 2020.
           </div>
         </div>
       </div>

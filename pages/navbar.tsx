@@ -4,15 +4,15 @@ import * as Utils from "../components/utils";
 import styles from "./styles.module.css";
 import { Menu, GitHub, Home, X } from "react-feather";
 
-function Navbar() {
+function Navbar(): JSX.Element {
   const [clickedMenu, setClick] = useState(false);
 
-  function changeBackground(e: any) {
-    e.target.style.background = "#FABF40";
+  const changeBackground = (e: React.SyntheticEvent<HTMLElement>) => {
+    e.currentTarget.style.background = "#FABF40";
   }
 
-  function revertBackground(e: any) {
-    e.target.style.background = "#1C96DB";
+  const revertBackground = (e: React.SyntheticEvent<HTMLElement>) => {
+    e.currentTarget.style.background = "#1C96DB";
   }
 
   const topNavMobileStyle: React.CSSProperties = {
