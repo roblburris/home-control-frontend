@@ -18,6 +18,8 @@ function Navbar() {
   const topNavMobileStyle: React.CSSProperties = {
     position: "absolute",
     height: "9%",
+    top: 0,
+    left: 0,
     width: "100%",
     backgroundColor: "#1C96DB",
     display: "grid",
@@ -132,6 +134,7 @@ function Navbar() {
         style={{
           position: "absolute",
           top: "9%",
+          left: 0,
           height: "91%",
           backgroundColor: "black",
           width: "100%",
