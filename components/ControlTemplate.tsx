@@ -7,7 +7,7 @@ interface Props {
   children: JSX.Element
 }
 
-const Template = (Props: Props): JSX.Element => {
+const ControlTemplate = (Props: Props): JSX.Element => {
   const appMobileStyle: React.CSSProperties = {
     textAlign: "center",
     display: "grid",
@@ -36,7 +36,7 @@ const Template = (Props: Props): JSX.Element => {
 
     const normBody: React.CSSProperties = {
       gridTemplateColumns: "10% auto 10%",
-      gridTemplateRows: "5% auto auto",
+      gridTemplateRows: "5% auto 10% auto auto",
       margin: "0px",
       padding: "0px",
     };
@@ -51,17 +51,6 @@ const Template = (Props: Props): JSX.Element => {
       <div className={styles.Main} style={typeBody}>
         <div className={styles.Content} style={contentStyle}>
           {Props.children}
-          <div
-            className={styles.Footer}
-            style={{
-              textAlign: "center",
-              alignItems: "center",
-              fontSize: "calc(7px + 1vmin)",
-            }}
-          >
-            Made by Robert Burris. Built in React using TypeScript. Last
-            updated December 2020.
-          </div>
         </div>
       </div>
     );
@@ -74,4 +63,4 @@ const Template = (Props: Props): JSX.Element => {
   );
 }
 
-export default Template;
+export default ControlTemplate;

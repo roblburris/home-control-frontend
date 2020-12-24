@@ -1,49 +1,14 @@
 import React from "react";
 import Template from "../components/template";
 
-function Home(): JSX.Element {
+const Home: React.FC = () => {
   return (
     <Template>
       <div>
         <h1>Welcome!</h1>
         <p>
-          {" "}
-          I'm Robert Burris, a current sophomore at the University of Washington
-          studying Computer Science. Here you'll find a collection of my various
-          projects, blog posts, a copy of my resume, and info on where to
-          contact me! <br /> <br /> In the meantime, here's some info about me!
-        </p>
-        <ul>
-          <li>
-            {" "}
-            <b>Current Work:</b> Undergraduate Researcher in the UW School of
-            Medicine (nerve rehabilitation app development in Flutter) and the
-            Allen School of Computer Science and Engineering (computational
-            biology & machine learning omics research).{" "}
-          </li>
-
-          <li>
-            {" "}
-            <b>Current Coursework:</b> Data Structures and Parallelism (CSE332),
-            Hardware/Software Interface (CSE351), System and Software Tools
-            (CSE391), Second Year Accelerated Honors Calculus (MATH334),
-            Bioscientific Vocabularly Building from Latin and Greek Roots
-            (CLAS205)
-          </li>
-
-          <li>
-            <b> Ongoing Projects: </b> Designing a way to view bike rides logged
-            on{" "}
-            <a
-              href="https://www.strava.com/athletes/22252948"
-              style={{ color: "black" }}
-            >
-              Strava
-            </a>{" "}
-            on my website, redesigning my website using React, and developing a
-            medical appointment scheduling Telegram/Facebook Messenger bot.
-          </li>
-        </ul>
+          This website serves as the frontend for a seamless way to control LEDs and other devices on located throughout your home. To get started, visit the control page to select an available device and proceed from there! If interested in the development process, feel free to visit Robert's website for a detailed writeup. In short, this project uses a HTTP server built in Go to handle requests from the React/TypeScript frontend. Depending on the device, the Go backend processes the received data and then sends it to the device. In the case of the LED strips, the Go backend writes data to serial which is then read by an Arduino connected to a Raspberry Pi that is locally hosting the server.
+        </p> 
       </div>
     </Template>
   );

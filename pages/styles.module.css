@@ -10,7 +10,7 @@
   left: 0;
   display: grid;
   margin: 0;
-  grid-template-columns: 10% auto auto auto auto auto 10%;
+  grid-template-columns: 10% auto auto auto 10%;
 }
 
 .navbar {
@@ -56,7 +56,6 @@
 }
 
 .Footer {
-  grid-row: 3;
   border-style: solid hidden hidden hidden;
   border-top-color: #1c96db;
 }
@@ -70,4 +69,81 @@
   align-items: center;
   color: "#A9A9A9";
   font-size: calc(3px + 1vmin);
+}
+
+.LEDControl {
+  display: grid;
+  grid-template-columns: 7% auto auto auto auto auto 7%;
+  grid-template-rows: 10% 10vw auto;
+}
+
+.LED {
+  grid-column: 1;
+  width: 10vw;
+  height: 10vw;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  line-height: 10vw;
+  font-size: calc(14px + 1vmin);
+  background-color: #1c96db;
+  user-select: none;
+}
+
+.LEDContainer {
+  display: grid;
+  grid-template-columns: 10vw auto;
+  height: 100%;
+  width: 100%;
+  grid-row: 2;
+}
+
+.ColorPickerShown {
+  justify-self: center;
+  align-self: center;
+}
+
+.ColorPickerHide {
+  justify-self: center;
+  align-self: center;
+  opacity: 0%;
+}
+
+.ColorPickerContainer {
+  height: 100%;
+  width: 100%;
+  grid-row: 3;
+  display: flex;
+}
+
+.RightArrow {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-column: 2;
+  margin: 0 auto;
+  left: 20%;
+  align-items: center;
+  stroke-width: 0.5px;
+}
+
+.NavArrows {
+  width: 100%;
+  height: 100%;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.NavArrowRight {
+  height: 100%;
+  left: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.NavArrowLeft {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
 }

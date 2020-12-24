@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import Link from "next/link";
 import * as Utils from "../components/utils";
 import styles from "./styles.module.css";
 import { Menu, GitHub, Home, X } from "react-feather";
 
-function Navbar(): JSX.Element {
+const Navbar: React.FC = () => {
   const [clickedMenu, setClick] = useState(false);
 
   const changeBackground = (e: React.SyntheticEvent<HTMLElement>) => {
@@ -52,55 +51,35 @@ function Navbar(): JSX.Element {
 
   const navBar: JSX.Element = (
     <div className={styles.topnav}>
-      <Link href="/">
-        <a
+      <a
           className={styles.navbar}
           onMouseEnter={changeBackground}
           onMouseLeave={revertBackground}
           style={{ gridColumn: 2 }}
+          href="/"
         >
           {" "}
           Home
         </a>
-      </Link>
+
       <a
         className={styles.navbar}
-        href="/resume.pdf"
+        href="/control"
         onMouseEnter={changeBackground}
         onMouseLeave={revertBackground}
       >
         {" "}
-        Resume{" "}
+        Control{" "}
       </a>
 
       <a
         className={styles.navbar}
-        href="/projects"
+        href="/info"
         onMouseEnter={changeBackground}
         onMouseLeave={revertBackground}
       >
         {" "}
-        Projects{" "}
-      </a>
-
-      <a
-        className={styles.navbar}
-        href="/blog"
-        onMouseEnter={changeBackground}
-        onMouseLeave={revertBackground}
-      >
-        {" "}
-        Blog{" "}
-      </a>
-
-      <a
-        className={styles.navbar}
-        href="/contact"
-        onMouseEnter={changeBackground}
-        onMouseLeave={revertBackground}
-      >
-        {" "}
-        Contact{" "}
+        Project Info{" "}
       </a>
     </div>
   );
