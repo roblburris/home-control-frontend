@@ -1,11 +1,12 @@
 import React from "react";
 import Template from "./utils/template";
+import LedState from "./utils/Ledstate";
 
 const Home: React.FC = () => {
   return (
     <Template>
       <div>
-        <h1>Welcome!</h1>
+        <LedState />
       </div>
     </Template>
   );

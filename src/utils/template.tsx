@@ -55,8 +55,8 @@ function Template(Props: any) {
               fontSize: "calc(7px + 1vmin)",
             }}
           >
-            Made by Robert Burris. Programmed in React using TypeScript. Last
-            updated September 2020.
+            Made by Robert Burris and Nicholas Saroiu. Programmed in React using TypeScript. Last
+            updated December 2020.
           </div>
         </div>
       </div>
