@@ -10,7 +10,7 @@ import {
 } from "react-feather";
 
 const sendData = async (ledColors: string[]) => {
-  await fetch("http://localhost:8080/setcolor", {
+  await fetch("http://10.0.0.159:8080/setcolor", {
     method: "POST",
     mode: "no-cors",
     headers: { "Content-Type": "application/json" },
