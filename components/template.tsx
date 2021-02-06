@@ -59,7 +59,7 @@ const Template = (Props: Props): JSX.Element => {
               fontSize: "calc(7px + 1vmin)",
             }}
           >
-            Made by Robert Burris. Built in React using TypeScript. Last
+            Made by Robert Burris and Nicholas Saroiu. Built in React using TypeScript. Last
             updated December 2020.
           </div>
         </div>

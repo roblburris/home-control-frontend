@@ -74,7 +74,7 @@
 .LEDControl {
   display: grid;
   grid-template-columns: 7% auto auto auto auto auto 7%;
-  grid-template-rows: 10% 10vw auto;
+  grid-template-rows: 40% 10vw auto auto;
 }
 
 .LED {
@@ -146,4 +146,43 @@
   height: 100%;
   margin: 0 auto;
   position: relative;
+}
+
+.LEDNavbar {
+  height: 100%;
+  width: 100%;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 7% auto auto auto auto auto 7%;
+}
+
+.Submit {
+  grid-column: 7;
+  grid-row: 1;
+  display: grid;
+  height: 50%;
+  width: 100%;
+  grid-template-rows: auto auto;
+}
+
+.SubmitButton {
+  background: #fabf40;
+  border: 100% solid #fabf40;
+  border-radius: 8%;
+  color: white;
+  outline: none;
+  padding: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.75vw;
+}
+
+.ChangeAll {
+  display: grid;
+  height: 100%;
+  width: 200%;
+  grid-column: 1;
+  grid-row: 1;
+  grid-template-rows: auto auto;
 }
